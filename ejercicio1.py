@@ -3,9 +3,10 @@ def cadenaInvertida():
     while palabra:
         for letra in palabra:
             invertirCadena = letra + invertirCadena
+            cadena = [invertirCadena]
+            for x in cadena:
+                print(x)
         break
-
-    print(invertirCadena)
 
 if __name__ == "__main__":
     palabra = input("Introduzca una palabra:")
